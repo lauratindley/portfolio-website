@@ -1,7 +1,42 @@
-/*font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif; */
+:root {
+  --primary-font-family: "Merriweather", serif;
+  --secondary-font-family: "Roboto", sans-serif;
+  --primary-color: #d3ecb6;
+  --secondary-color: #385a10;
+}
 
 h1 {
-  color: red;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-font-family);
+  font-size: 84px;
+}
+
+h3 {
+  font-size: 36px;
+}
+p {
+  font-size: 28px;
+}
+
+.btn-styling {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 10px 20px;
+}
+
+.btn-styling:hover {
+  background-color: var(--secondary-color);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  background-color: var(--primary-color);
+  padding: 150px 30px;
+}
+
+.hero h3,
+p {
+  font-family: var(--secondary-font-family);
 }
