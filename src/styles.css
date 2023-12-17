@@ -70,6 +70,13 @@ p {
   color: var(--secondary-color);
 }
 
+footer,
+.banner {
+  text-align: center;
+  background-color: var(--primary-color);
+  padding: 30px;
+}
+
 @media (max-width: 991px) {
   .project-description {
     text-align: center;
