@@ -37,7 +37,7 @@ p {
 .hero {
   text-align: center;
   background-color: var(--primary-color);
-  padding: 150px 30px 10px 30px;
+  padding: 120px 30px 10px 30px;
 }
 
 .hero h3,
@@ -68,4 +68,11 @@ p {
   background-color: white;
   border: 1px solid var(--secondary-color);
   color: var(--secondary-color);
+}
+
+@media (max-width: 991px) {
+  .project-description {
+    text-align: center;
+    margin-bottom: 30px;
+  }
 }
