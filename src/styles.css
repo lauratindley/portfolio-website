@@ -10,6 +10,10 @@ h1 {
   font-size: 84px;
 }
 
+h2 {
+  font-family: var(--primary-font-family);
+  font-size: 48px;
+}
 h3 {
   font-size: 36px;
 }
@@ -33,10 +37,35 @@ p {
 .hero {
   text-align: center;
   background-color: var(--primary-color);
-  padding: 150px 30px;
+  padding: 150px 30px 10px 30px;
 }
 
 .hero h3,
 p {
   font-family: var(--secondary-font-family);
+}
+
+.intro-text {
+  font-family: var(--secondary-font-family);
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+.container {
+  max-width: 1200px;
+}
+.descriptive-text {
+  font-size: 18px;
+}
+
+.btn-projects {
+  font-family: var(--secondary-font-family);
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 10px 20px;
+}
+.btn-projects:hover {
+  background-color: white;
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
 }
