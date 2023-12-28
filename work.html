@@ -26,9 +26,25 @@
     />
     <link href="src/styles.css" rel="stylesheet" type="text/css" />
     <title>My projects - Laura Tindley</title>
+    <meta
+      name="description"
+      content="Laura Tindley is a front-end developer and these are some of her key projects"
+    />
   </head>
   <body>
-    <div class="banner">
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/"><i class="fa-solid fa-l logo"></i></a>
+
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li class="active"><a href="/work.html">Work</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="banner container">
       <h2>My projects</h2>
       <p class="descriptive-text mt-4 mb-0">
         Check out some of the things I have been working on
@@ -72,8 +88,18 @@
         </div>
       </div>
     </div>
-    <footer class="mt-4">
-      <a href="/contact.html" class="btn btn-styling shadow">Contact me</a>
+    <footer class="container mt-4">
+      <div class="contact-icons">
+        <a href="mailto:laura.tindley@hotmail.co.uk"
+          ><i class="fa-regular fa-envelope"></i
+        ></a>
+        <a href="www.linkedin.com/in/laura-tindley-a5849451" target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="www.instagram.com/lauratindley" target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </div>
     </footer>
   </body>
 </html>
