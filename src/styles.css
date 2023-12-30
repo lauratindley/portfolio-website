@@ -27,6 +27,10 @@ p {
   font-size: 28px;
 }
 
+.container {
+  max-width: 1200px;
+}
+
 .btn-styling {
   font-family: var(--secondary-font-family);
   background-color: var(--secondary-color);
@@ -38,6 +42,7 @@ p {
   background-color: var(--primary-color);
   border: 1px solid var(--secondary-color);
   color: var(--secondary-color);
+  transition: all 0.2s ease-in-out;
 }
 
 .hero {
@@ -46,9 +51,6 @@ p {
   padding: 120px 30px 10px 30px;
 }
 
-.container {
-  max-width: 1200px;
-}
 .descriptive-text {
   font-size: 20px;
   text-decoration: none;
@@ -65,6 +67,13 @@ p {
   background-color: white;
   border: 1px solid var(--secondary-color);
   color: var(--secondary-color);
+  transition: all 0.2s ease-in-out;
+}
+
+.work-enquiry {
+  background: var(--primary-color);
+  padding: 10px;
+  border-radius: 5px;
 }
 
 nav {
@@ -113,6 +122,12 @@ footer .contact-icons a,
   color: var(--secondary-color);
   font-size: 40px;
   padding: 10px;
+}
+
+footer .contact-icons a:hover,
+.contact-icons:hover {
+  color: white;
+  transition: all 0.2s ease-in-out;
 }
 
 @media (max-width: 991px) {
