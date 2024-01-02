@@ -124,8 +124,7 @@ footer .contact-icons a,
   padding: 10px;
 }
 
-footer .contact-icons a:hover,
-.contact-icons:hover {
+footer .contact-icons a:hover {
   color: white;
   transition: all 0.2s ease-in-out;
 }
